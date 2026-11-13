@@ -1,0 +1,2 @@
+observed_delta_RMSE_full_minus_baseline,mean_permuted_delta_RMSE,permuted_delta_RMSE_sd,permutation_p_value_one_sided,replications,interpretation_scope
+-2705.7389896144305,-123.93862087749217,520.4111948503381,0.001996007984031936,500,proxy ordering versus baseline; not incremental value beyond macro controls

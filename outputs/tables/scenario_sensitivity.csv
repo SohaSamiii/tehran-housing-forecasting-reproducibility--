@@ -1,0 +1,17 @@
+scenario,parameter_change_pct,mean_predicted_price_change_pct,month_bootstrap_ci_low_pct,month_bootstrap_ci_high_pct,interval_scope
+S1,10,-0.03529561947801518,-0.03863502287764081,-0.031566491379744765,test-month resampling; conditional on fitted model and fixed parameters
+S2,10,-0.056315691802699686,-0.0643657454747476,-0.04776164847254323,test-month resampling; conditional on fitted model and fixed parameters
+S3,10,-0.1850721512527076,-0.21924841604357204,-0.14677358398344306,test-month resampling; conditional on fitted model and fixed parameters
+S4,10,-0.27556482433085394,-0.30935053737208645,-0.243845855628316,test-month resampling; conditional on fitted model and fixed parameters
+S1,20,-0.07057835102188825,-0.07866396769281664,-0.06327713890685122,test-month resampling; conditional on fitted model and fixed parameters
+S2,20,-0.11259723761121165,-0.1287905532442407,-0.0939578313349601,test-month resampling; conditional on fitted model and fixed parameters
+S3,20,-0.36976113289374224,-0.43601707734936296,-0.30162020906481635,test-month resampling; conditional on fitted model and fixed parameters
+S4,20,-0.548473540605765,-0.6181653973270387,-0.48605561940668374,test-month resampling; conditional on fitted model and fixed parameters
+S1,30,-0.10584819949996938,-0.11492008691014799,-0.0947495718948943,test-month resampling; conditional on fitted model and fixed parameters
+S2,30,-0.16884465937844206,-0.19819119040160926,-0.14272743679038968,test-month resampling; conditional on fitted model and fixed parameters
+S3,30,-0.5540677951845319,-0.6627725653986607,-0.44109307379651025,test-month resampling; conditional on fitted model and fixed parameters
+S4,30,-0.8187439244624395,-0.9232392215974274,-0.7296850603504971,test-month resampling; conditional on fitted model and fixed parameters
+S1,50,-0.17634926672315254,-0.19666147043275128,-0.15896768485308826,test-month resampling; conditional on fitted model and fixed parameters
+S2,50,-0.28123721852699735,-0.3270429665311675,-0.2396750566596226,test-month resampling; conditional on fitted model and fixed parameters
+S3,50,-0.848391590922204,-0.968813079203214,-0.7107998503385416,test-month resampling; conditional on fitted model and fixed parameters
+S4,50,-1.278630485221266,-1.382530549950438,-1.1571774995729154,test-month resampling; conditional on fitted model and fixed parameters

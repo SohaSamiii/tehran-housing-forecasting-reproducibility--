@@ -1,0 +1,28 @@
+t,jalali_month,district,original_price,diagnostic_price,centred_residual,action
+79,1402/07,2,86300.0,863000.0,-2.308524957611766,decimal-shift correction x10^1; diagnostic only
+83,1402/11,2,82200.0,822000.0,-2.3594776520992458,decimal-shift correction x10^1; diagnostic only
+81,1402/09,3,91800.0,918000.0,-2.2248402510233998,decimal-shift correction x10^1; diagnostic only
+82,1402/10,3,91800.0,918000.0,-2.21760341004965,decimal-shift correction x10^1; diagnostic only
+77,1402/05,4,35800.0,,-3.149406119394609,unrecoverable; diagnostic only
+84,1402/12,4,62100.0,,-2.7919309382608386,unrecoverable; diagnostic only
+80,1402/08,5,72300.0,723000.0,-2.2914842036080962,decimal-shift correction x10^1; diagnostic only
+81,1402/09,5,71600.0,716000.0,-2.228275537751628,decimal-shift correction x10^1; diagnostic only
+82,1402/10,5,71600.0,716000.0,-2.228275537751628,decimal-shift correction x10^1; diagnostic only
+81,1402/09,8,63500.0,635000.0,-2.1089462767616087,decimal-shift correction x10^1; diagnostic only
+82,1402/10,8,63500.0,635000.0,-2.0926820787176776,decimal-shift correction x10^1; diagnostic only
+80,1402/08,9,53800.0,538000.0,-2.348537226954102,decimal-shift correction x10^1; diagnostic only
+79,1402/07,10,52500.0,525000.0,-2.3583216126489823,decimal-shift correction x10^1; diagnostic only
+85,1403/01,10,51100.0,511000.0,-2.445401237809694,decimal-shift correction x10^1; diagnostic only
+80,1402/08,13,26400.0,,-2.81178064886425,unrecoverable; diagnostic only
+79,1402/07,16,3600.0,360000.0,-4.674049793547727,decimal-shift correction x10^2; diagnostic only
+80,1402/08,17,39400.0,394000.0,-2.3885723106016474,decimal-shift correction x10^1; diagnostic only
+78,1402/06,19,56700.0,,-1.7864283683747395,unrecoverable; diagnostic only
+79,1402/07,19,566100.0,,0.4756453310838751,unrecoverable; diagnostic only
+82,1402/10,19,57500.0,575000.0,-2.14143438054969,decimal-shift correction x10^1; diagnostic only
+84,1402/12,19,20600.0,,-2.927998887771409,unrecoverable; diagnostic only
+77,1402/05,21,1344100.0,,0.8008091723498776,unrecoverable; diagnostic only
+78,1402/06,21,141400.0,1414000.0,-2.1666589468127615,decimal-shift correction x10^1; diagnostic only
+83,1402/11,21,148600.0,1486000.0,-2.2058027312812474,decimal-shift correction x10^1; diagnostic only
+84,1402/12,21,1506800.0,,0.9298181064137498,unrecoverable; diagnostic only
+77,1402/05,22,1277500.0,,0.6072519157142597,unrecoverable; diagnostic only
+78,1402/06,22,117000.0,1170000.0,-2.269024032882159,decimal-shift correction x10^1; diagnostic only

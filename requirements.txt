@@ -1,0 +1,12 @@
+numpy>=2.0,<3
+pandas>=2.2,<3
+scipy>=1.14,<2
+scikit-learn>=1.6,<2
+matplotlib>=3.9,<4
+openpyxl>=3.1,<4
+statsmodels>=0.14,<0.15
+xgboost>=2.1,<4
+shap>=0.50,<0.51
+jupyterlab>=4.2,<5
+ipykernel>=6.29,<8
+pytest>=8,<10

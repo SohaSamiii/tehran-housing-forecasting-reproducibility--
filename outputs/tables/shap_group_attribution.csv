@@ -1,0 +1,10 @@
+model,group,mean_abs_SHAP,share_total_abs_SHAP_pct
+Ridge,Environmental proxy,0.01330153199241492,37.41890752333204
+Ridge,Lagged price and momentum,0.01324465277559532,37.2588990254097
+Ridge,Macroeconomic series,0.009001437738394947,25.32219345125828
+RandomForest,Environmental proxy,0.024669055746654345,37.36788112417507
+RandomForest,Lagged price and momentum,0.022269361485450185,33.73290251745627
+RandomForest,Macroeconomic series,0.019078319613846168,28.899216358368644
+XGBoost,Environmental proxy,0.024104801937937737,24.18057840108965
+XGBoost,Lagged price and momentum,0.045404307544231415,45.54704167025419
+XGBoost,Macroeconomic series,0.030177511274814606,30.272378060155553

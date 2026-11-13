@@ -1,0 +1,40 @@
+discussion_item,value,unit,source,note
+Original HED-price within-month mean Spearman,1.0,correlation,archived results (1)(2).pkl / R.T12b_cross_section_corr,Legacy pre-reconstruction audit; not recomputed by the final pipeline.
+Original SDI-price within-month mean Spearman,-0.975367,correlation,archived results (1)(2).pkl / R.T12b_cross_section_corr,Legacy pre-reconstruction audit; Discussion may round to -0.975.
+Full proxy RMSE,39225.70403733478,price units,out_of_time_test_metrics.csv,
+Baseline RMSE,41931.44302694921,price units,out_of_time_test_metrics.csv,
+Full proxy RMSE change vs baseline,-6.45276860106021,%,out_of_time_test_metrics.csv,Negative denotes lower RMSE; approximately -6.45%.
+Joint month-shuffle permutation p-value,0.001996007984031936,p-value,month_shuffle_permutation.csv,"500 permutations; this tests full proxy vs baseline, not CCF vs macro control."
+Macro-ratio control RMSE,37731.83915520697,price units,out_of_time_test_metrics.csv,
+Macro-ratio control vs full proxy RMSE change,-3.8083825868515997,%,out_of_time_test_metrics.csv,Negative denotes lower RMSE for macro control.
+Rank-adjusted macro-control RMSE,37661.59564014856,price units,out_of_time_test_metrics.csv,
+Rank-adjusted macro-control + CCF RMSE,37498.365387485836,price units,out_of_time_test_metrics.csv,
+Observed CCF RMSE change vs rank-adjusted control,-0.4334130030558603,%,out_of_time_test_metrics.csv,Point estimate; approximately -0.43%.
+CCF three-month block bootstrap median change,-0.5730240474788761,%,paired_bootstrap_comparisons.csv,Bootstrap median differs from observed point change.
+CCF three-month block bootstrap 95% CI lower,-1.362229715651261,%,paired_bootstrap_comparisons.csv,"Use -1.36%, not -1.33%, to two decimals."
+CCF three-month block bootstrap 95% CI upper,0.06810344989843262,%,paired_bootstrap_comparisons.csv,
+full_proxy rolling-origin mean RMSE,16887.24941829528,price units,rolling_origin_validation.csv,
+full_proxy rolling-origin mean RMSElog,0.06125390402534048,log units,rolling_origin_validation.csv,
+macro_control rolling-origin mean RMSE,17047.495981522112,price units,rolling_origin_validation.csv,
+macro_control rolling-origin mean RMSElog,0.05926402743397042,log units,rolling_origin_validation.csv,
+Maximum test growth-based R2 excluding proxy-only plus district dummies,0.06447682626139606,R2,out_of_time_test_metrics.csv,Exact maximum is about 0.0645; avoid saying 0.064 as a strict upper bound.
+Minimum test level R2,0.9654892982173892,R2,out_of_time_test_metrics.csv,
+Maximum test level R2,0.9789613947485101,R2,out_of_time_test_metrics.csv,
+RandomForest baseline RMSE,42559.38904616968,price units,nonlinear_model_comparison.csv,
+RandomForest macro_control RMSE,40311.06764976857,price units,nonlinear_model_comparison.csv,
+RandomForest full_proxy RMSE,41332.62875676907,price units,nonlinear_model_comparison.csv,
+XGBoost baseline RMSE,41407.35301664121,price units,nonlinear_model_comparison.csv,
+XGBoost macro_control RMSE,39890.42875413734,price units,nonlinear_model_comparison.csv,
+XGBoost full_proxy RMSE,41132.928268419964,price units,nonlinear_model_comparison.csv,
+LODO full-vs-baseline RMSE-change min,-6.5432435474156225,%,leave_one_district_out.csv,
+LODO full-vs-baseline RMSE-change max,-6.157294452142537,%,leave_one_district_out.csv,
+LODO full-vs-macro RMSE-change min,1.5761748925189556,%,leave_one_district_out.csv,
+LODO full-vs-macro RMSE-change max,4.095626304493583,%,leave_one_district_out.csv,
+Mean rank-CCF growth residual,0.01906155790223706,log-growth units,residual_diagnostics.json / run_summary.json,Residuals for rank_macro_plus_ccf; observed minus predicted.
+Mean rank-CCF level residual,10800.650220628919,price units,residual_diagnostics.json / run_summary.json,Residuals for rank_macro_plus_ccf; observed minus predicted.
+Rank-CCF Shapiro-Wilk W,0.9637778184785102,statistic,residual_diagnostics.json / run_summary.json,Residuals for rank_macro_plus_ccf; observed minus predicted.
+Rank-CCF Shapiro-Wilk p,1.3897444831654822e-06,p-value,residual_diagnostics.json / run_summary.json,Residuals for rank_macro_plus_ccf; observed minus predicted.
+Rank-CCF Breusch-Pagan LM,20.93455911652162,statistic,residual_diagnostics.json / run_summary.json,Residuals for rank_macro_plus_ccf; observed minus predicted.
+Rank-CCF Breusch-Pagan p,4.752429940260238e-06,p-value,residual_diagnostics.json / run_summary.json,Residuals for rank_macro_plus_ccf; observed minus predicted.
+Rank-CCF monthly mean residual lag-1 correlation,-0.1061801304407321,correlation,residual_diagnostics.json / run_summary.json,Residuals for rank_macro_plus_ccf; observed minus predicted.
+Full-proxy model SDI +50% scenario response,-0.848391590922204,%,scenario_sensitivity.csv,Model-based scenario response; not a measured environmental or causal effect.

@@ -1,0 +1,27 @@
+[build-system]
+requires = ["setuptools>=68", "wheel"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "tehran-housing-proxy-study"
+version = "1.0.0"
+description = "Reproducible machine-learning analysis of monthly Tehran housing prices and market-level environmental proxies."
+requires-python = ">=3.11"
+dependencies = [
+  "numpy>=2.0,<3",
+  "pandas>=2.2,<3",
+  "scipy>=1.14,<2",
+  "scikit-learn>=1.6,<2",
+  "matplotlib>=3.9,<4",
+  "openpyxl>=3.1,<4",
+  "statsmodels>=0.14,<0.15",
+  "xgboost>=2.1,<4",
+  "shap>=0.50,<0.51",
+]
+
+[tool.setuptools.packages.find]
+where = ["src"]
+
+[tool.pytest.ini_options]
+pythonpath = ["src"]
+testpaths = ["tests"]

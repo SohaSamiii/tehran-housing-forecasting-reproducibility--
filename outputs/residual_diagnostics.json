@@ -1,0 +1,9 @@
+{
+  "mean_growth_residual_observed_minus_predicted": 0.01906155790223706,
+  "mean_level_residual_observed_minus_predicted": 10800.650220628919,
+  "shapiro_W": 0.9637778184785102,
+  "shapiro_p": 1.3897444831654822e-06,
+  "breusch_pagan_LM_descriptive": 20.93455911652162,
+  "breusch_pagan_p_descriptive": 4.752429940260238e-06,
+  "lag1_corr_monthly_mean_growth_residual": -0.1061801304407321
+}

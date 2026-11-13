@@ -1,0 +1,3 @@
+specification,n_columns_including_intercept,matrix_rank,condition_number
+rank_macro_control,23,23,220.87720883104927
+rank_macro_plus_ccf,24,24,236.25835189340617
