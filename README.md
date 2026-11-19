@@ -147,6 +147,4 @@ The tests verify the workbook structure, the 1,408-row analytical panel, lag-onl
 
 The analysis uses pandas for workbook ingestion, NumPy/SciPy for numerical operations, scikit-learn for Ridge and Random Forest, XGBoost for boosting, SHAP for exploratory attribution, and Matplotlib for figures. A fixed random seed (`20261107`) is used for stochastic procedures. Small numerical differences can occur across operating systems, BLAS implementations, and library versions; the exact dependency ranges are listed in `requirements.txt`.
 
-## Data and code permissions
 
-The source workbook was supplied for this analysis. Its redistribution rights were not established by the workbook itself. Verify permission before publishing the data file in a public repository. No open-source licence is assigned in this package; add an appropriate code and data licence only after the authors have agreed on the terms.
